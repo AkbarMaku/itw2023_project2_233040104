@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&family=Spectral:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- my style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- logo -->
+    <link rel="icon" href="img/logo.jpg">
+
+    <!-- box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Nao Store</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent position-fixed w-100">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.jpg" alt="" width="40" class="d-inline-block align-text-top me-3">
+                NaoStore</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#tentang">Tentang</a>
+                    </li>
+                    <li class="nav-item dropdown mx-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Produk
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#produk-etawaku">Etawaku</a></li>
+                            <li><a class="dropdown-item" href="#produk-daymilk">Day Milk</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#kontak">Kontak</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Cari" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Cari</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section id="hero">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-md-6 hero-tagline my-auto">
+                    <h1>Susu Kambing Penuh Manfaat.</h1>
+                    <p><span class="fw-bold">Susu Kambing</span> adalah susu yang lebih baik dibandingkan dengan susu
+                        lainnya, beli susu kambing di sumber terpercaya.</p>
+
+                    <button type="submit" class="button">Susu Kambing Disini</button>
+                </div>
+            </div>
+
+            <img src="img/Susu_Kambing-removebg-preview.png" alt="" class="position-absolute end-0 bottom-0 img-hero">
+        </div>
+    </section>
+
+    <!-- Tentang section -->
+    <section id="tentang">
+        <div class="container">
+            <div class="row ">
+                <div class="col-12 text-center tentang-h2">
+                    <h2>Tentang Produk</h2>
+                    <span class="sub-title">NaoStore kini menjual susu kambing bubuk</span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="card-tentang mt-5">
+                        <div class="circle-icon position-relative mx-auto">
+                            <a href="#tentang" class="position-absolute top-50 start-50 translate-middle"><i
+                                    class='bx bxs-coffee'></i></a>
+                        </div>
+                        <h3 class="mt-4">Etawaku</h3>
+                        <p class="mt-3">Etawaku adalah susu kambing yang memiliki banyak khasiat, walaupun bubuk tapi
+                            khasiatnya tetap sama dengan susu kambing murni.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <div class="card-tentang mt-5">
+                        <div class="circle-icon position-relative mx-auto">
+                            <a href="#tentang" class="position-absolute top-50 start-50 translate-middle"><i
+                                    class='bx bxs-heart-circle'></i></a>
+                        </div>
+                        <h3 class="mt-4">Susu etawa</h3>
+                        <p class="mt-3">Susu etawa adalah susu dari seekor kambing jenis etawa, yang bisa menghasilkan
+                            susu lebih banyak daripada kambing biasa.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <div class="card-tentang mt-5">
+                        <div class="circle-icon position-relative mx-auto">
+                            <a href="#tentang" class="position-absolute top-50 start-50 translate-middle"><i
+                                    class='bx bxs-coffee'></i></a>
+                        </div>
+                        <h3 class="mt-4">Day Milk</h3>
+                        <p class="mt-3">Day Milk adalah susu kambing murni yang berbentuk bubuk, susu ini bisa dibilang
+                            versi litenya Etawaku, yang membedakan kedua produk ini adalah harga Day Milk yang sangat
+                            terjangkau.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produk etawaku section -->
+    <section id="produk-etawaku">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center etawaku-h2">
+                    <h2>Etawaku Milk</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="etawaku-img">
+                    <div class="card-etawaku p-2 text-center">
+                        <img src="img/Etawaku-2.jpg" alt="">
+                        <div class="card-body">
+                            <h4>IDR. 100.000</h4>
+                            <p>Susu Etawaku harga normal 1 box dengan berat bersih 200 gram</p>
+                        </div>
+
+                        <div class="button-etawaku text-center">
+                            <button type="submit" class="button">Ketuk untuk Beli</button>
+                        </div>
+                    </div>
+
+                    <div class="card-etawaku p-2 text-center">
+                        <img src="img/Etawaku.jpg" alt="">
+                        <div class="card-body">
+                            <h4>IDR. 290.000</h4>
+                            <p>Susu Etawaku speesial promo 3 box dengan berat bersih 600 gram (200/box)</p>
+                        </div>
+
+                        <div class="button-etawaku text-center">
+                            <button type="submit" class="button">Ketuk untuk Beli</button>
+                        </div>
+                    </div>
+
+                    <div class="card-etawaku p-2 text-center">
+                        <img src="img/Etawaku-3.jpg" alt="">
+                        <div class="card-body">
+                            <h4>IDR. 195.000</h4>
+                            <p>Susu Etawaku promo 2 box dengan berat bersih 400 gram (200/box)</p>
+                        </div>
+
+                        <div class="button-etawaku text-center">
+                            <button type="submit" class="button">Ketuk untuk Beli</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produk daymilk section -->
+    <section id="produk-daymilk">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center daymilk-h2">
+                    <h2>DayMilk</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="daymilk-img">
+                    <div class="card-daymilk p-2 text-center">
+                        <img src="img/DayMilk.jpg" alt="">
+                        <div class="card-body">
+                            <h4>IDR. 40.000</h4>
+                            <p>Susu DayMilk harga normal 1 box dengan berat bersih 200 gram</p>
+                        </div>
+
+                        <div class="button-daymilk text-center">
+                            <button type="submit" class="button">Ketuk untuk Beli</button>
+                        </div>
+                    </div>
+
+                    <div class="card-daymilk p-2 text-center">
+                        <img src="img/DayMilk-2.jpg" alt="">
+                        <div class="card-body">
+                            <h4>IDR. 110.000</h4>
+                            <p>Susu DayMilk speesial promo 3 box dengan berat bersih 600 gram (200/box)</p>
+                        </div>
+
+                        <div class="button-daymilk text-center">
+                            <button type="submit" class="button">Ketuk untuk Beli</button>
+                            < </div>
+                        </div>
+
+                        <div class="card-daymilk p-2 text-center">
+                            <img src="img/DayMilk-3.jpg" alt="">
+                            <div class="card-body">
+                                <h4>IDR. 75.000</h4>
+                                <p>Susu Daymilk promo 2 box dengan berat bersih 400 gram (200/box)</p>
+                            </div>
+
+                            <div class="button-daymilk text-center">
+                                <button type="submit" class="button">Ketuk untuk Beli</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Kontak section -->
+    <section id="kontak">
+        <div class="container-fluid overlay h-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Masih kebingungan...? Silahkan kontak kami.</h3>
+                        <div class="kontak-info">
+                            <h6>Kontak</h6>
+                            <div class="mb-3 d-flex align-items-center">
+                                <div>
+                                    <i class='bx bx-home'></i>
+                                </div>
+                                <a href="#">Jl. Raja Polamolo No.342 Kel. Hunggaluwa Gorontalo Indonesia</a>
+                            </div>
+
+                            <div class="mb-3">
+                                <i class='bx bxs-phone'></i>
+                                <a href="#">+6285341970394</a>
+                            </div>
+
+                            <div class="mb-3">
+                                <i class='bx bxs-envelope'></i>
+                                <a href="#">aakbarmaku@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="sosial-media">
+                            <h6>Sosial Media</h6>
+                            <a href="#" class="me-lg-3 me-1"><i class='bx bxl-facebook-circle'></i></a>
+                            <a href="#" class="me-lg-3 me-1"><i class='bx bxl-instagram-alt'></i></a>
+                            <a href="#" class="me-lg-3 me-1"><i class='bx bxl-telegram'></i></a>
+                            <a href="#" class="nao">NaoStore</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card-contact w-100">
+                            <form>
+                                <h2 class="text-center">ADA MASUKAN...?</h2>
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control kontak-form" id="floatingInput"
+                                        placeholder="name@example.com">
+                                    <label for="floatingInput" class="d-flex align-items-center">Masukkan Email Anda Disini...</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control kontak-form" id="floatingInput"
+                                        placeholder="name@example.com">
+                                    <label for="floatingInput" class="d-flex align-items-center">Tulis Masukan Anda Disini...</label>
+                                </div>
+
+                                <button type="submit" class="button-kontak">Kirim</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="d-flex align-items-center position-relative">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 footer-img d-flex align-items-center justify-content-lg-start justify-content-center">
+                        <img src="img/logo.jpg" alt="">
+                        <a href="#" class="ms-3">NaoStore</a>
+                    </div>
+
+                    <div class="footer-menu col-md-5 d-flex justify-content-evenly justify-content-center">
+                        <a href="#hero">Beranda</a>
+                        <a href="#tentang">Tentang</a>
+                        <a href="#produk-etawaku">Etawaku</a>
+                        <a href="#produk-daymilk">DayMilk</a>
+                        <a href="#kontak">Kontak</a>
+                    </div>
+                </div>
+
+                <div class="row position-absolute copyright start-50 translate-middle">
+                    <div class="col-12">
+                        <p class="text-center">Copyright &copy; 2023 by NaoMe | Pasundan University</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
